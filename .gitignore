@@ -1,0 +1,35 @@
+# Logs
+*.log
+nohup.out
+
+# Temporary files
+*.tmp
+*.temp
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv
+venv/
+
+# Shell
+*.swp
+*.swo
+
+# Task content (actual task files are sensitive, only push .gitkeep)
+pending/*
+running/*
+done/*
+rejected/*
+receipts/*
+alarms/*
+!pending/.gitkeep
+!running/.gitkeep
+!done/.gitkeep
+!rejected/.gitkeep
+!receipts/.gitkeep
+!alarms/.gitkeep
